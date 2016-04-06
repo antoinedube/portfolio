@@ -1,0 +1,33 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #4F4F4F;
+}
+
+.container {
+    max-width: 30%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 25px;
+}
+
+.container > .title {
+    font-size: 48px;
+}
+
+.icon {
+    width: 45%;
+    display: inline-block;
+}
+
+.icon.left {
+    text-align: left;
+}
+
+.icon.right {
+    text-align: right;
+}

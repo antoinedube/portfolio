@@ -1,0 +1,12 @@
+{
+  "name": "personal-webpage",
+  "version": "1.0.0",
+  "author": "Antoine Dubé",
+  "license": "GPL-3.0",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "dependencies": {
+    "lite-server": "latest"
+  }
+}
