@@ -1,6 +1,12 @@
+html {
+    min-height: 100%;
+    background-repeat:no-repeat;
+    background: linear-gradient(to top, #ECF0F1, #F2F1EF);
+}
+
 body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #4F4F4F;
+    color: #6C7A89;
 }
 
 .container {
