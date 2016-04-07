@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 30%;
+    width: 310px;
     height: 500px;
     position: absolute;
     top: 0;
@@ -17,17 +17,26 @@ body {
 
 .container > .title {
     font-size: 48px;
+    margin: 10px 0;
 }
 
 .icon {
-    width: 45%;
+    width: 153px;
     display: inline-block;
 }
 
-.icon.left {
+.left {
     text-align: left;
 }
 
-.icon.right {
+.right {
     text-align: right;
+}
+
+a:link, a:visited, a:active {
+    color: inherit;
+}
+
+a:hover {
+    color: #4B77BE;
 }
