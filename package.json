@@ -5,6 +5,9 @@
   "repository" : "https://github.com/antoinedube/portfolio",
   "author": "Antoine Dubé",
   "license": "GPL-3.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "latest",
     "morgan": "latest"
