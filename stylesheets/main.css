@@ -46,3 +46,7 @@ a:link, a:visited, a:active {
 a:hover {
     color: #4B77BE;
 }
+
+h1 {
+    text-align: center;
+}
