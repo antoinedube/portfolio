@@ -4,10 +4,9 @@ var morgan = require('morgan');
 
 var app = express();
 
-app.set('port', (process.env.PORT || 5000));
-console.log('PORT value is: ', app.get('port'));
+app.set('port', 5000);
 
-var log_directory = __dirname + '/log'
+var log_directory = __dirname + '/log';
 var access_log_stream = file_stream_rotator.getStream({
   date_format: 'YYYYMMDD',
   filename: log_directory + '/access-%DATE%.log',
