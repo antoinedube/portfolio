@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express');
 var file_stream_rotator = require('file-stream-rotator');
 var morgan = require('morgan');
