@@ -1,7 +1,5 @@
 FROM node:alpine
 
-COPY src/ /app/
-RUN mkdir /app/log
+RUN mkdir /app
 WORKDIR /app
-RUN npm install
 
