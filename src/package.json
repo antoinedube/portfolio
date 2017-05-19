@@ -2,7 +2,7 @@
   "name": "personal-webpage",
   "description": "Personal page with links to relevant information",
   "version": "1.0.0",
-  "repository" : "https://github.com/antoinedube/portfolio",
+  "repository": "https://github.com/antoinedube/portfolio",
   "author": "Antoine Dubé",
   "license": "GPL-3.0",
   "scripts": {
@@ -12,5 +12,8 @@
     "express": "latest",
     "file-stream-rotator": "latest",
     "morgan": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }
