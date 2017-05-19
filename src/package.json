@@ -9,11 +9,15 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "d3": "^4.9.1",
     "express": "latest",
     "file-stream-rotator": "latest",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
     "morgan": "latest"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^3.19.0",
+    "nodemon": "^1.11.0"
   }
 }

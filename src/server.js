@@ -10,15 +10,17 @@ app.set('port', 5000);
 
 var log_directory = __dirname + '/log';
 var access_log_stream = file_stream_rotator.getStream({
-  date_format: 'YYYYMMDD',
-  filename: log_directory + '/access-%DATE%.log',
-  frequency: 'daily',
-  verbose: false
+    date_format: 'YYYYMMDD',
+    filename: log_directory + '/access-%DATE%.log',
+    frequency: 'daily',
+    verbose: false
 });
 
 app.use(morgan('combined', { stream: access_log_stream }));
 
 app.use(express.static('templates'));
 app.use('/stylesheets', express.static('stylesheets'));
+app.use('/scripts', express.static('scripts'));
+app.use('/node_modules', express.static('node_modules'));
 
 app.listen(app.get('port'));
