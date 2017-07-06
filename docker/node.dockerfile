@@ -1,5 +1,8 @@
 FROM node:alpine
 
-RUN mkdir /app
+COPY src/ /app/
+RUN mkdir -p /log
 WORKDIR /app
+RUN npm install
 
+CMD ["node", "server.js"]
