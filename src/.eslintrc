@@ -1,11 +1,10 @@
-module.exports = {
+{
     'env': {
         'browser': true,
     },
     'extends': [
         'eslint:recommended',
     ],
-    'installedESLint': true,
     'rules': {
         'indent': [
             'error',
@@ -40,4 +39,4 @@ module.exports = {
         '$': true,
         '_': true
     }
-};
+}
