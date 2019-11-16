@@ -15,10 +15,8 @@ var access_log_stream = file_stream_rotator.getStream({
 });
 
 app.use(morgan('combined', { stream: access_log_stream }));
-
 app.use(express.static('templates'));
 app.use('/stylesheets', express.static('stylesheets'));
 app.use('/scripts', express.static('scripts'));
-app.use('/node_modules', express.static('node_modules'));
 
 app.listen(app.get('port'));
